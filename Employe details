@@ -1,0 +1,7 @@
+import pandas as pd
+def main():
+    Emp_name = input("enter Employee Name: ")
+    Emp_Id = int(input("enter Employe Id :"))
+    Emp_Sal = int(input("Enter Employe salary"))
+        print(a)
+main()
