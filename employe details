@@ -1,5 +1,6 @@
+import pandas as pd
 employ_name = input("Enter employee name: ")
 employe_Id = int(input("Enter employe Id :"))
 employe_salary=float(input("enter employe Salary :"))
-print(employ_name,employe_Id,employe_salary)
-print(employ_name)
+Data = pd.Dataframe({"Employe_name":[employ_name],"Employe_Id":[employe_Id],"employe_salary":[employe_salary]})
+print(Data)
