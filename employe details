@@ -1,0 +1,4 @@
+employ_name = input("Enter employee name: ")
+employe_Id = int(input("Enter employe Id :"))
+employe_salary=float(input("enter employe Salary :"))
+print(employ_name,employe_Id,employe_salary)
